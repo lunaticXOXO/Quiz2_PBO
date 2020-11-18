@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 public class DataBaseHandler {
     public Connection con;
     private String driver = "com.mysql.cj.jdbc.Driver";
-    private String url = "jdbc:mysql://localhost/terminal?serverTimezone=" + TimeZone.getDefault().getID();
+    private String url = "jdbc:mysql://localhost/quizpbo2?serverTimezone=" + TimeZone.getDefault().getID();
     private String username = "root";
     private String password = "";
 
